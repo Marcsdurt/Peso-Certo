@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #06222F;
+}
+#conteudo{
+    width: 887px;
+    height: 577px;
+    border: 2px solid #FFF;
+    background: linear-gradient(90deg, #00111D 0%, #00657C 100%);
+    
+}
+
+form{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+
+#titulo{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 107.25%;
+    display: flex;
+}
+#subTitulo{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 107.25%; 
+    display: flex;
+    margin-top: 20px;
+}
+
+.form-group {
+    display: inline-grid;
+    margin-top: 30px;
+}
+
+.form-group label {
+    display: flex;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 107.25%; 
+}
+
+.form-group input {
+    width: 162px;
+    height: 54px;
+   
+}
+#peso{
+    margin-right: 64px;
+}
+#btn-calcular{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    width: 162px;
+    height: 54px;
+    background: none;
+    border: 1px solid #fff;
+}
+
+#valor{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#imagem {
+    position: absolute;
+    top: 1.5px;
+    right: 526px;
+    height: 577px;
+
+}
