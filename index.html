@@ -8,14 +8,30 @@
     <title>Peso Certo</title>
 </head>
 <body>
-    <form id="form">
-    <label for="peso">Seu Peso:</label>
-    <input type="number" name="peso" step="0.01" min="0" id="peso" required>
-    <label for="altura">Sua Altura:</label>
-    <input type="number" name="altura" step="0.01" min="0" id="altura" required>
-    <button type="submit">Calcular</button>
+    <div id="conteudo">
+        
+    <form id="form">    
+
+    <a id="titulo">Calculadora de peso certo</a>
+    <a id="subTitulo">Insira suas informações nos campos abaixo</a>
+   
+    <div class="form-group">
+        <label for="peso">Seu Peso:</label>
+        <input type="number" name="peso" step="0.01" min="0" id="peso" required>
+    </div>
+
+    <div class="form-group">
+        <label for="altura">Sua Altura:</label>
+        <input type="number" name="altura" step="0.01" min="0" id="altura" required>
+    </div>
+   
+    <button type="submit" id="btn-calcular">Calcular</button>
 
     <span id="valor"></span>
+
 </form>
+
+    <img id="imagem" src="_20c44237-273b-4769-8a01-941d423643ed-removebg-preview.png" alt="">
+</div>
 </body>
 </html>
