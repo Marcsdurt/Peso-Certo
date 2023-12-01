@@ -4,19 +4,24 @@
 }
 body{
     background-color: #06222F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 #conteudo{
     width: 887px;
     height: 577px;
     border: 2px solid #FFF;
     background: linear-gradient(90deg, #00111D 0%, #00657C 100%);
-    
+    align-items: center;
 }
 
 form{
     width: 400px;
-    margin-top: 50px;
-    margin-left: 40px;
+    margin-top: 113px;
+    margin-left: 60px;
 
 }
 
@@ -57,11 +62,16 @@ form{
 
 .form-group input {
     width: 162px;
-    height: 54px;
+    height: 44px;
+    padding-left: 10px;
    
 }
+.form-group input:focus {
+    outline: 2px solid #00ffea;
+}
+
 #peso{
-    margin-right: 64px;
+    margin-right: 44px;
 }
 #btn-calcular{
     margin-top: 20px;
@@ -81,9 +91,8 @@ form{
 }
 
 #imagem {
-    position: absolute;
-    top: 1.5px;
-    right: 526px;
+    position: fixed;
     height: 577px;
+    margin-right: -532px;
 
 }
